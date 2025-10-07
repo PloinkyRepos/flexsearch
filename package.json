@@ -1,0 +1,16 @@
+{
+    "name": "flexsearch",
+    "version": "0.8.214",
+    "description": "Prebuilt FlexSearch bundles (PloinkyRepos fork)",
+    "main": "dist/flexsearch.bundle.min.js",
+    "module": "dist/flexsearch.bundle.module.min.mjs",
+    "exports": {
+        ".": {
+            "require": "./dist/flexsearch.bundle.min.js",
+            "import": "./dist/flexsearch.bundle.module.min.mjs",
+            "default": "./dist/flexsearch.bundle.module.min.mjs"
+        },
+        "./dist/*": "./dist/*",
+        "./package.json": "./package.json"
+    }
+}
